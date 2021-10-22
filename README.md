@@ -9,9 +9,9 @@ docs
 
 tests
 
-date as input link_matches()
+date as input for link_matches() (so for e.g yt vids that were uploaded x days ago are only compared with matches that started x days ago) 
 
-write script to delete frame files if they were extracted or invalid.
+write script to delete frame files if the heroes were extracted or invalid.
 
 write script to archive live.json files if they were inserted into db
 

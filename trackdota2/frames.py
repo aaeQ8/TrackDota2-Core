@@ -151,6 +151,7 @@ class FramesDB:
                , kills INTEGER
                , deaths INTEGER
                , assists INTEGER
+               , uploaded TEXT
                , PRIMARY KEY(match_id, num)
                , FOREIGN KEY(match_id) REFERENCES matches(match_id)
                , FOREIGN KEY(hero_id) REFERENCES heroes(hero_id));"""

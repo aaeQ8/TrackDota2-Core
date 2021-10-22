@@ -6,7 +6,7 @@ See: [trackdota2](https://www.trackdota2.com)
 ## Install
 install opencv dependencies.
 
-run ```pip3 install . ``` in project dir (where setup.py is located).
+run ```pip3 install .``` in project dir (where setup.py is located).
 
 Works on raspberry-pi and ubuntu.
 

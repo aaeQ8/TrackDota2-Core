@@ -6,8 +6,13 @@ See: [trackdota2](https://www.trackdota2.com)
 
 ## todo
 docs
+
 tests
+
 date as input link_matches()
+
 write script to delete frame files if they were extracted or invalid.
+
 write script to archive live.json files if they were inserted into db
+
 refactor code/delete unneeded stuff.

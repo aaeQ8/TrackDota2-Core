@@ -3,8 +3,14 @@ This project's main purpose is to track pro dota players and link match ids with
 
 See: [trackdota2](https://www.trackdota2.com)
 
+## Install
+install opencv dependencies.
 
-## todo
+run ```pip3 install . ``` in project dir (where setup.py is located).
+
+Works on raspberry-pi and ubuntu.
+
+## TODO
 docs
 
 tests
@@ -16,3 +22,4 @@ write script to delete frame files if the heroes were extracted or invalid.
 write script to archive live.json files if they were inserted into db
 
 refactor code/delete unneeded stuff.
+

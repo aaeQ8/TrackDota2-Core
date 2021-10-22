@@ -45,15 +45,13 @@ heroes_extractor = HeroesExtractor()
 ydl_opts = {
     "playliststart": 1,
     "skip_download": False,
-    "playlistend": 1,
+    "playlistend": 6,
     "sleep_interval": 1,
 }
 
-channels = ["https://www.youtube.com/c/Dota2Pro/videos"]
 yt_frames_fetcher = YtFramesFetcher(
-    channels=channels,
     initial_frame_num=900,
-    num_of_frames=1,
+    num_of_frames=2,
     ydl_opts=ydl_opts,
     skip_frame=180,
     skip_valid=True,

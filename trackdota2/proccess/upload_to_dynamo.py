@@ -1,5 +1,5 @@
-from frames import FramesDB
-from fetchers import FetchMatchDetails
+from trackdota2.frames import FramesDB
+from trackdota2.fetchers import FetchMatchDetails
 import numpy as np
 import sqlite3
 import os

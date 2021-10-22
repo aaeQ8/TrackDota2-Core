@@ -14,5 +14,6 @@ setup(
         "matplotlib>=3.4.3",
         "Pillow>=8.4.0",
         "scikit_learn>=1.0",
+        "scikit_image"
     ],
 )

@@ -409,7 +409,7 @@ class FramesDB:
                         (yt_id,),
                     )
                     extracted_heroes = [
-                        x[2].lower() for x in self._cursor.fetchall()
+                        int(x[3]) for x in self._cursor.fetchall()
                     ]
                     try:
                         if distance(match_heroes, extracted_heroes) >= 5:
